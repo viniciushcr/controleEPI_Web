@@ -66,11 +66,21 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Cadastrar Projeto
                             </a>
+                            <a class="nav-link" href="index.php?pagina=cadastroCaEpi">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Cadastrar EPI (C.A.)
+                            </a>
                             <div class="sb-sidenav-menu-heading">Relatórios</div>
                             <a class="nav-link" href="#">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Ficha de EPI's
-                            </a>                        
+                            </a> 
+
+                            <div class="sb-sidenav-menu-heading">Senhas</div>
+                            <a class="nav-link" href="index.php?pagina=dashBoard">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user fa-fw"></i></div>
+                                Alterar Senha
+                            </a>                       
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">

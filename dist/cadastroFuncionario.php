@@ -15,26 +15,54 @@
                             <div class="form-group">
                               <label for="inputEmail4">Nome (Completo)</label>
                               <input type="text" class="form-control" id="inputEmail4" placeholder="Digite o nome Completo">
-                            </div> 
+                            </div>
                             <div class="form-group">
-                                <label for="inputAddress">Endereço</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Rua exemplo, nº 0">
+                                <label for="formGroupExampleInput">Projeto (Código AP)</label>
+                                <input type="text" minlength="14" maxlength="14" class="form-control"  placeholder="Digite o Código AP do Projeto deste Funcionário">
                             </div>
                             <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label for="inputStatus">Status</label>
+                                    <select id="inputStatus" class="form-control">
+                                    <option selected>TRABALHANDO</option>
+                                    <option>DEMITIDO</option>
+                                  </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">                                
+                                <div class="form-row">
+                                    <div class="form-group col-md-2">
+                                        <label for="inputCEP">CEP</label>
+                                        <input type="text" class="form-control" id="inputCEP">
+                                    </div>
+                                </div>
+                                <div class="form-row">  
+                                    <div class="form-group col-md-10">
+                                        <label for="inputAddress">Endereço</label>
+                                        <input type="text" class="form-control" id="inputAddress">
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="inputNumber">Número</label>
+                                        <input type="text" class="form-control" id="inputNumber">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                  <label for="inputBairro">Bairro</label>
+                                  <input type="text" class="form-control" id="inputBairro">
+                                </div>
                                 <div class="form-group col-md-6">
                                   <label for="inputCity">Cidade</label>
                                   <input type="text" class="form-control" id="inputCity">
                                 </div>
-                                <div class="form-group col-md-4">
-                                    <label for="inputEstado">Estado</label>
+                                <div class="form-group col-md-2">
+                                    <label for="inputEstado">UF</label>
                                     <select id="inputEstado" class="form-control">
                                     <option selected>Escolher...</option>
                                     <option>...</option>
                                   </select>
-                                </div>
-                                <div class="form-group col-md-2">
-                                    <label for="inputCEP">CEP</label>
-                                    <input type="text" class="form-control" id="inputCEP">
                                 </div>
                             </div>
                             <div class="form-group row">

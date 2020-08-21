@@ -9,12 +9,19 @@
                         <form class="login100-form validate-form" method="post" action="index.php?pagina=dashBoard">
 
                             <div class="form-group">
+                                <label for="formGroupExampleInput">Código AP (Alfa Projeto)</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite o código AP" required>
+                            </div>
+                            <div class="form-group">
                                 <label for="formGroupExampleInput">Nome</label>
                                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite o Nome do Projeto" required>
                             </div>
                             <div class="form-group">
-                                <label for="formGroupExampleInput">Código AP (Alfa Projeto)</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite o código AP" required>
+                                <label for="inputGerente">Gerente do Projeto</label>
+                                <select id="inputGerente" class="form-control">
+                                <option selected>Escolher...</option>
+                                <option>...</option>
+                              </select>
                             </div>
 
                             <div class="form-group row">

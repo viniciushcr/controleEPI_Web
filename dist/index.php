@@ -23,6 +23,9 @@ switch ($pagina) {
     case 'cadastroProjeto':
         include 'cadastroProjeto.php';
         break;
+    case 'cadastroCaEpi':
+        include 'cadastroCaEpi.php';
+        break;
     default:
         include 'error/404.php';
         break;
