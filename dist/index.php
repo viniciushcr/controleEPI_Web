@@ -26,6 +26,12 @@ switch ($pagina) {
     case 'cadastroCaEpi':
         include 'cadastroCaEpi.php';
         break;
+    case 'consultaTabela':
+        include 'consultaTabela.php';
+        break;
+    case 'fichaEPIs':
+        include 'fichaEPIs.php';
+        break;
     default:
         include 'error/404.php';
         break;

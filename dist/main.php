@@ -34,7 +34,10 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                         <!-- linha divisora
                         <div class="dropdown-divider"></div> -->
-                        <a class="dropdown-item" href="login.php">Sair</a>
+                        <a class="dropdown-item" href="login.php">
+                            <i class="fas fa-door-open" style="font-size:17px"></i>
+                            Sair
+                        </a>
                     </div>
                 </li>
             </ul>
@@ -47,38 +50,54 @@
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Informações</div>
                             <a class="nav-link" href="index.php?pagina=dashBoard">
-                                <div class="sb-nav-link-icon"><i class="fas fa-chart-bar"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-bar" style="font-size:17px"></i></div>
                                 Dashboard
                             </a>
                             <div class="sb-sidenav-menu-heading">Cadastros</div>
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-user fa-fw"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-plus" style="font-size:17px"></i></div>
                                 Cadastrar
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="index.php?pagina=cadastroFuncionario">Funcionário</a>
-                                    <a class="nav-link" href="index.php?pagina=cadastroUsuario">Usuário</a>
+                                    <a class="nav-link" href="index.php?pagina=cadastroFuncionario">
+                                        <div class="sb-nav-link-icon"><i class="fas fa-user-plus" style="font-size:17px"></i></div>
+                                        Funcionário
+                                    </a>
+                                    <a class="nav-link" href="index.php?pagina=cadastroUsuario">
+                                        <div class="sb-nav-link-icon"><i class="far fa-user-circle" style="font-size:17px"></i></div>
+                                        Usuário
+                                    </a>
+
+
+                                    <a class="nav-link" href="index.php?pagina=cadastroProjeto">
+                                        <div class="sb-nav-link-icon"><i class="fas fa-clipboard-list" style="font-size:17px"></i></div>
+                                        Projeto
+                                    </a>
+                                    <a class="nav-link" href="index.php?pagina=cadastroCaEpi">
+                                        <div class="sb-nav-link-icon"><i class="fas fa-table" style="font-size:17px"></i></div>
+                                        EPI (C.A.)
+                                    </a>
                                 </nav>
                             </div>
-                            <a class="nav-link" href="index.php?pagina=cadastroProjeto">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Cadastrar Projeto
+                            
+                            <div class="sb-sidenav-menu-heading">Consultas</div>
+
+                            <a class="nav-link" href="index.php?pagina=consultaTabela">
+                                <div class="sb-nav-link-icon"><i class="fas fa-search" style="font-size:17px"></i></div>
+                                Consultar
                             </a>
-                            <a class="nav-link" href="index.php?pagina=cadastroCaEpi">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Cadastrar EPI (C.A.)
-                            </a>
+
                             <div class="sb-sidenav-menu-heading">Relatórios</div>
-                            <a class="nav-link" href="#">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            <a class="nav-link" href="index.php?pagina=fichaEPIs">
+                                <div class="sb-nav-link-icon"><i class="far fa-list-alt" style="font-size:17px"></i></div>
                                 Ficha de EPI's
                             </a> 
 
                             <div class="sb-sidenav-menu-heading">Senhas</div>
                             <a class="nav-link" href="index.php?pagina=dashBoard">
-                                <div class="sb-nav-link-icon"><i class="fas fa-user fa-fw"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-user-cog" style="font-size:17px"></i></div>
                                 Alterar Senha
                             </a>                       
                         </div>
